@@ -1,24 +1,39 @@
 <html>
 <head>
   <title>Welcome to Daniel's Page!</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="public/stylesheets/styles.css">
 </head>
 <body>
-  <div class="container">
+  <div class="container text-center">
     <h1>Hello. My name is Daniel Lavados.</h1>
-    <h3><a href="/about">If you'd like to know about me, click here!</a></h3>
+    <h3><a href="/about">If you'd like to know more about me, click here!</a></h3>
   </div>
-  <div>
-    <h3>Things I've done or been a part of!</h1>
-    <ul>
-      <li><a href="https://imaginingamerica.org/">Imagining America</a></li>
-        <ul>
-          <li><p>Imagining America is a consortium that has "connected , convened, and advocated for public scholars and artists committed to creating a more caring and just world."</p></li>
-        </ul>
-      <li><a href="https://powerful-depths-27152.herokuapp.com/">YelpCamp!</a></li>
-        <ul>
-          <li><p>YelpCamp is a website that I built and deployed on Heroku which followed the Web Developer Bootcamp on Udemy! It is my first deployed website, and I continue to update it with new features.</p></li>
-        </ul>
-    </ul>
+
+  <div class="container pt-5">
+    <h3 class="text-center">Things I've done or been a part of!</h3>
+    <div class="row pt-3 d-flex justify-content-around">
+      <div class="col-sm-5 card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Imagining America</h5>
+          <p class="card-text">Imagining America is a consortium that has "connected , convened, and advocated for public scholars and artists committed to creating a more caring and just world."</p>
+          <a href="https://imaginingamerica.org/">Visit Page</a>
+        </div>
+      </div>
+      <div class="col-sm-5 card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">YelpCamp!</h5>
+          <p class="card-text">YelpCamp is a website that I built and deployed on Heroku which followed the Web Developer Bootcamp on Udemy! It is my first deployed website, and I continue to update it with new features.</p>
+          <a href="https://powerful-depths-27152.herokuapp.com/">Visit Page</a>
+        </div>
+      </div>
+    </div>
   </div>
+
+  <footer>
+    <p class="fixed-bottom">This website is still being built! Come by again and check out my progress!</p>
+  </footer>
+
+
 </body>
 </html>
