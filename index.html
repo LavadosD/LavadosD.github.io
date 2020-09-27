@@ -5,12 +5,70 @@
   <link rel="stylesheet" href="public/stylesheets/styles.css">
 </head>
 <body>
-  <div class="ui center aligned container">
-    <h1>Hello, my name is Daniel Lavados.</h1>
-    <h3><a href="/about">Click here to get to know me.</a></h3>
+  <div class="ui fixed sticky menu">
+    <a class="header item">
+      Home
+    </a>
+    <a class="item" href="#">
+      About
+    </a>
+    <a class="item" href="#">
+      Works
+    </a>
+    <a class="item" href="#">
+      Stack
+    </a>
   </div>
 
-  <div class="ui container">
+  <div class="ui middle aligned grid" style="width: 1920px; height: 1080px;">
+    <h1 id="greeting" class="center aligned column">Hello, my name is Daniel Lavados.</h1>
+  </div>
+
+  <div id="about" class="ui grid"> 
+    <div class="row">
+      <h1 class="center aligned column">About Me</h1>
+    </div>
+    <div class="stretched row">
+      <div class="three wide column"></div> 
+      <div class="three wide column divided grid">
+        <img id="meImg" src="public/images/me2.JPG" alt="Me!" class="ui large circular image">
+        <p>B.S. in Computer Science, Minor in Linguistics</p>
+      </div>
+      <div class="two wide column"></div>
+      <div class="six wide column">
+        <p class="center aligned">
+            I am a recent UC Davis graduate working on my career in web development. I am a curious person, and I believe that we must never stop improving. 
+            To that end, I am always trying out new technologies and teaching myself to do something new. 
+          </p>
+        <div class="ui two column grid">
+          <div class="eight wide column">
+              <h2 class="ui center aligned header">
+                  Languages I know: 
+              </h2>
+              <ul class="ui center aligned">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>PHP</li>
+                <li>NoSQL</li>
+              </ul>  
+          </div>
+          <div class="eight wide column">
+              <h2 class="ui center aligned header">
+                  Other technologies I use:
+              </h2>
+              <p>
+                  Heroku, React.js, node.js, mongoose, GitHub, WordPress, Bootstrap, Semantic UI
+              </p>  
+          </div> 
+        </div>
+      </div>
+      <div class="two wide column"></div>
+    </div>
+  </div>
+
+  <div id="projects" class="ui container">
     <h3 class="ui center aligned header">Projects or websites I have built:</h3>
     <div class="ui center aligned equal width grid">
         <div class="ui center aligned seven wide column">
@@ -40,6 +98,8 @@
     </div>
   </div>
 
+  
+
 
 
 <!-- 
@@ -64,9 +124,7 @@
   </div> -->
 
   <footer>
-    <p class="ui fixed bottom sticky">This website is still being built! Come by again and check out my progress!</p>
+    <p class="ui fixed bottom">This website is still being built! Come by again and check out my progress!</p>
   </footer>
-
-
 </body>
 </html>
