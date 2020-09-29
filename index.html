@@ -20,11 +20,11 @@
     </a>
   </div>
 
-  <div class="ui middle aligned grid" style="width: 1920px; height: 1080px;">
+  <div class="ui middle aligned grid" style="height: 1080px;">
     <h1 id="greeting" class="center aligned column">Hello, my name is Daniel Lavados.</h1>
   </div>
 
-  <div id="about" class="ui grid"> 
+  <div id="about" class="ui stackable grid"> 
     <div class="row">
       <h1 class="center aligned column">About Me</h1>
     </div>
@@ -35,11 +35,11 @@
         <p>B.S. in Computer Science, Minor in Linguistics</p>
       </div>
       <div class="two wide column"></div>
-      <div class="six wide column">
+      <div class="six wide column aboutContent">
         <p class="center aligned">
             I am a recent UC Davis graduate working on my career in web development. I am a curious person, and I believe that we must never stop improving. 
             To that end, I am always trying out new technologies and teaching myself to do something new. 
-          </p>
+        </p>
         <div class="ui two column grid">
           <div class="eight wide column">
               <h2 class="ui center aligned header">
@@ -58,9 +58,16 @@
               <h2 class="ui center aligned header">
                   Other technologies I use:
               </h2>
-              <p>
-                  Heroku, React.js, node.js, mongoose, GitHub, WordPress, Bootstrap, Semantic UI
-              </p>  
+              <ul class="ui center aligned">
+                <li>Heroku</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>Mongoose</li>
+                <li>GitHub</li>
+                <li>WordPress</li>
+                <li>Bootstrap</li>
+                <li>Semantic UI</li>
+              </ul>  
           </div> 
         </div>
       </div>
@@ -69,7 +76,65 @@
   </div>
 
   <div id="projects" class="ui container">
-    <h3 class="ui center aligned header">Projects or websites I have built:</h3>
+    <h2 class="ui center aligned header">Projects or websites I have built:</h2>
+      <div class="ui two column grid">
+        <div class="ui stackable segment row">
+          <!-- Imagining America Content Here -->
+          <div class="four wide column">
+            <img src="public/images/ia-logo.svg">
+          </div>
+          <div class="twelve wide column">
+            <h2>Imagining America</h2>
+            <div class="ui breadcrumb">
+              <div class="section">HTML</div>
+              <div class="divider"> / </div>
+              <div class="section">CSS</div>
+              <div class="divider"> / </div>
+              <div class="section">WordPress</div>
+              <div class="divider"> / </div>
+              <div class="section"> PHP</div>
+              <div class="divider"> / </div>
+              <div class="section">jQuery</div>
+            </div>
+            <p class="segContent"> This was my first freelance job where I worked as the front-end developer. I learned a lot about communication, implementation, and development during this time. Imagining America is a consortium that has "connected , convened, and advocated for public scholars and artists committed to creating a more caring and just world."</p>
+            <a href="https://imaginingamerica.org/" class="ui teal button">Visit Website</a>
+          </div>
+        </div>
+        <div class="ui stackable segment row">
+          <!-- Imagining America Content Here -->
+          <div class="four wide column">
+            <img src="public/images/yelp.jpg">
+          </div>
+          <div class="twelve wide column">
+            <h2>YelpCamp</h2>
+            <div class="ui breadcrumb">
+              <div class="section">HTML</div>
+              <div class="divider"> / </div>
+              <div class="section">CSS</div>
+              <div class="divider"> / </div>
+              <div class="section">React</div>
+              <div class="divider"> / </div>
+              <div class="section">Node.js</div>
+              <div class="divider"> / </div>
+              <div class="section">Mongoose</div>
+              <div class="divider"> / </div>
+              <div class="section">NoSQL</div>
+            </div>
+            <p class="segContent"> YelpCamp is a website that I built and deployed on Heroku which followed the Web Developer Bootcamp on Udemy! It is my first deployed website, and I continue to update it with new features. Go on a camping trip lately? Make an account and tell us about it!</p>
+            <a href="https://powerful-depths-27152.herokuapp.com/" class="ui teal button">Visit Website</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact">
+        <br>
+        <p>Contact me!</p>
+        <p>...Once I build that part!</p>
+      </div>
+
+
+<!-- Old Cards used for project showing -->
+<!-- 
     <div class="ui center aligned equal width grid">
         <div class="ui center aligned seven wide column">
           <div class="ui segment card">
@@ -96,7 +161,7 @@
           </div>
         </div>
     </div>
-  </div>
+  </div> -->
 
   
 

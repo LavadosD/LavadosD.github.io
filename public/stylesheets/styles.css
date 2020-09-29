@@ -22,6 +22,10 @@ button a {
     color: white;
 }
 
+div.row h1 {
+    padding-bottom: 30px;
+}
+
 #projects {
     padding-top: 30px;
 }
@@ -39,7 +43,7 @@ button a {
 }
 
 #meImg {
-    height: 300px;
+    height: 250px;
 }
 
 .ui.segment.card {
@@ -62,11 +66,21 @@ div.ui.horizontal.segments > .segment {
     border-left: none;
 }
 
-p {
+ul {
+    font-size: 20px;
+}
+
+p.segContent {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+div.aboutContent p {    
     line-height: 2;
     font-size: 20px;
 }
 
-ul {
-    font-size: 20px;
+.breadcrumb {
+    font-style: italic;
+    padding-bottom: 10px;
 }
