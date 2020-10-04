@@ -2,6 +2,11 @@ body {
     background: white;
 }
 
+.far, .fab {
+    width: 100px;
+    height: 100px;
+}
+
 /* #ia-pic {
     width: 40%;
 } */
@@ -28,6 +33,11 @@ div.row h1 {
 
 #projects {
     padding-top: 30px;
+    margin-bottom: 100px;
+}
+
+#projects h2.breaker {
+    padding: 20 20;
 }
 
 #about {
@@ -84,3 +94,14 @@ div.aboutContent p {
     font-style: italic;
     padding-bottom: 10px;
 }
+
+footer {
+    width: 100vw;
+    background: black;
+    color: white;
+}
+
+#contact input, #contact textarea {
+    margin: 20px 0px;
+}
+
