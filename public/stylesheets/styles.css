@@ -58,6 +58,7 @@ div.row h1 {
 
 #meImg img {
     margin: 0 auto;
+    width: 250px;
 }
 
 .ui.segment.card {
