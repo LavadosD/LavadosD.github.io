@@ -56,6 +56,10 @@ div.row h1 {
     height: 250px;
 }
 
+#meImg img {
+    margin: 0 auto;
+}
+
 .ui.segment.card {
     font-size: 1.3em;
     line-height: 1.4;

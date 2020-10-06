@@ -7,21 +7,21 @@
 </head>
 <body>
   <div class="ui fixed sticky menu">
-    <a class="header item">
+    <a class="header item" href="#top">
       Home
     </a>
-    <a class="item" href="#">
+    <a class="item" href="#about">
       About
     </a>
-    <a class="item" href="#">
+    <a class="item" href="#projects">
       Works
     </a>
-    <a class="item" href="#">
-      Stack
+    <a class="item" href="#contact">
+      Contact
     </a>
   </div>
 
-  <div class="ui middle aligned grid" style="height: 1080px;">
+  <div id="top" class="ui middle aligned grid" style="height: 1080px;">
     <h1 id="greeting" class="center aligned column">Hello, my name is Daniel Lavados.</h1>
   </div>
 
@@ -31,15 +31,18 @@
     </div>
     <div class="stretched row">
       <div class="three wide column"></div> 
-      <div class="three wide column divided grid">
-        <img id="meImg" src="public/images/me2.JPG" alt="Me!" class="ui large circular image">
+      <div id="meImg" class="three wide center aligned column grid">
+        <img src="public/images/me2.JPG" alt="Me!" class="ui medium circular center aligned image">
         <p>B.S. in Computer Science, Minor in Linguistics</p>
       </div>
       <div class="two wide column"></div>
       <div class="six wide column aboutContent">
         <p class="center aligned">
             I am a recent UC Davis graduate working on my career in web development. I am a curious person, and I believe that we must never stop improving. 
-            To that end, I am always trying out new technologies and teaching myself to do something new. 
+            To that end, I am always teaching myself to do something new and learning new technologies. 
+        </p>
+        <p>
+          My personal hobbies include singing, playing Taiko ensemble drumming, and learning the accordion! 
         </p>
         <div class="ui two column grid">
           <div class="eight wide column">
@@ -102,7 +105,7 @@
         </div>
       </div>
       <div class="ui stackable segment row">
-        <!-- Imagining America Content Here -->
+        <!-- YelpCamp Content Here -->
         <div class="four wide column">
           <img src="public/images/yelp.jpg">
         </div>
@@ -132,75 +135,15 @@
       <div class="ui center aligned container">
         <br>
         <h1>Let's talk!</h1>
-        <div class="ui center aligned stackable grid">
-          <div class="three wide stackable column">
+        <div class="ui center aligned grid">
+          <div class="four wide stackable column">
             <a href="mailto:brovados@yahoo.com?subject=Let's get in touch!"><i class="far fa-envelope fa-7x"></i></a>
           </div>
-          <div  class="three wide stackable column">
+          <div  class="four wide stackable column">
             <a href="https://www.linkedin.com/in/laughados/"><i class="fab fa-linkedin fa-7x"></i></a>
           </div>
         </div>
       </div>
-    <!-- <p class="ui fixed bottom">This website is still being built! Come by again and check out my progress!</p> -->
   </footer>
-  
-
-
-<!-- Old Cards used for project showing -->
-<!-- 
-    <div class="ui center aligned equal width grid">
-        <div class="ui center aligned seven wide column">
-          <div class="ui segment card">
-            <div class="content">
-              <a class="header">Imagining America</a>
-              <div class="description">
-                Imagining America is a consortium that has "connected , convened, and advocated for public scholars and artists committed to creating a more caring and just world."
-              </div>
-              <a href="/ia" class="ui green button">See More</a>
-              <a href="https://imaginingamerica.org/" class="ui teal button">Visit Website</a>
-            </div>
-          </div>
-        </div>
-        <div class="ui center aligned seven wide column">
-          <div class="ui segment card">
-            <div class="content">
-              <a class="header">YelpCamp</a>
-              <div class="description">
-                YelpCamp is a website that I built and deployed on Heroku which followed the Web Developer Bootcamp on Udemy! It is my first deployed website, and I continue to update it with new features.
-              </div>
-              <a href="/yelpcamp" class="ui green button">See More</a>
-              <a href="https://powerful-depths-27152.herokuapp.com/" class="ui teal button">Visit Website</a>
-            </div>
-          </div>
-        </div>
-    </div>
-  </div> -->
-
-  
-
-
-
-<!-- 
-  <div class="container pt-5">
-    <h3 class="text-center">Things I've done or been a part of!</h3>
-    <div class="row pt-3 d-flex justify-content-around">
-      <div class="col-sm-5 card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Imagining America</h5>
-          <p class="card-text">Imagining America is a consortium that has "connected , convened, and advocated for public scholars and artists committed to creating a more caring and just world."</p>
-          <a href="https://imaginingamerica.org/">Visit Page</a>
-        </div>
-      </div>
-      <div class="col-sm-5 card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">YelpCamp!</h5>
-          <p class="card-text">YelpCamp is a website that I built and deployed on Heroku which followed the Web Developer Bootcamp on Udemy! It is my first deployed website, and I continue to update it with new features.</p>
-          <a href="https://powerful-depths-27152.herokuapp.com/">Visit Page</a>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-  
 </body>
 </html>
