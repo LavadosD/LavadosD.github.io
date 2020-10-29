@@ -36,7 +36,7 @@ div.row h1 {
     margin-bottom: 100px;
 }
 
-#projects h2.breaker {
+#projects h1.breaker {
     padding: 20 20;
 }
 
@@ -81,10 +81,6 @@ div.ui.horizontal.segments > .segment {
     border-left: none;
 }
 
-ul {
-    font-size: 20px;
-}
-
 p.segContent {
     line-height: 1.5;
     font-size: 16px;
@@ -110,3 +106,24 @@ footer {
     margin: 20px 0px;
 }
 
+/*** Font rules ***/
+
+ul {
+    font-size: 20px;
+}
+
+#top h1, .row h1, #projects > h1 {
+    font-size: 40px;
+}
+
+div#projects > h1, .cabin {
+    font-family: 'Cabin', sans-serif;
+}
+
+.open {
+    font-family: 'Open Sans', sans-serif;
+}
+
+div#projects div div div a.open {
+    font-family: 'Open Sans', sans-serif; 
+}
