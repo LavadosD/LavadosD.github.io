@@ -119,8 +119,12 @@ div.aboutContent p {
 
 footer {
     width: 100vw;
-    background: black;
-    color: white;
+    background: #F1F2F3;
+    padding-bottom: 40px;
+}
+
+footer div h1 {
+    color: black;
 }
 
 #contact input, #contact textarea {
@@ -133,7 +137,7 @@ ul {
     font-size: 20px;
 }
 
-#top h1, .row h1, #projects > h1 {
+#top h1, .row h1, #projects > div > h1, footer > div > h1  {
     font-size: 40px;
 }
 
